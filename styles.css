@@ -1,0 +1,53 @@
+html {
+  background: url('./images/drum-background.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.drums {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.drums__items {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.drums__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid #000;
+  border-radius: 5px;
+  margin: 10px;
+  height: 60px;
+  width: 80px;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: all 0.1s ease-in-out;
+}
+
+.drums__item.active {
+  border-color: #b8860b;
+  transform: scale(1.1);
+
+}
+
+.drums__letter {
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.drums__desc {
+  color: #b8860b;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
