@@ -1,1 +1,4 @@
-# javascript-drum-kit project
+Drums Kit
+
+Project idea - JavaScript30, 
+Implementation - own
